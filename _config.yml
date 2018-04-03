@@ -37,7 +37,7 @@ owner:
   #job: "A jekyll theme"
   bio: 정리하는 습관이 나를 키운다
   email:
-`  disqus-shortname: Won
+`  disqus-shortname: "Won"
   twitter: #username
   facebook: #username
   google:
