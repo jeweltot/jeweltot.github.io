@@ -3,11 +3,10 @@
 # Site wide configuration
 ####################################
 #
-title: 개발자 수첩
+title: 개발 노트
 email:
 description: 정리하는 습관이 나를 키운다
 url: # the base hostname & protocol for your site
-
 
 #
 ###################################
@@ -33,7 +32,7 @@ kramdown:
 ####################################
 #
 owner:
-  name: 개발자 수첩
+  name: 개발 노트
   avatar: won.png
   #job: "A jekyll theme"
   bio: 정리하는 습관이 나를 키운다
