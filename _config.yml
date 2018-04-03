@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: 개발자 수첩
 email:
-description: A simple and awesome blog theme powered by jekyll.
+description: 정리하는 습관이 나를 키운다
 url: # the base hostname & protocol for your site
 
 
@@ -33,10 +33,10 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  name: 개발자 수첩
+  avatar: won.png
+  #job: "A jekyll theme"
+  bio: 정리하는 습관이 나를 키운다
   email:
   disqus-shortname:
   twitter: #username
@@ -48,7 +48,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: "jeweltot"
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
