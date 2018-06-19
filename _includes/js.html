@@ -10,8 +10,15 @@
 
   ga('create', '{{ site.owner.google.analytics }}', 'auto');
   ga('send', 'pageview');
+
+  function handleOutboundLinkClicks(event) {
+      console.log(event);
+      ga('send', 'event', {
+          eventCategory: 'Outbound Link',
+          eventAction: 'click',
+          eventLabel: event.target.href
+      });
+  }
 </script>
 {% endif %}
-<a href="tel:02-111-3333" onclick="ga('send','event','button','click', '메뉴클릭', {
-    nonInteraction: true
-});">메뉴</a>
+<a href="tel:02-111-3333" onclick="handleOutboundLinkClicks(event);">메뉴</a>
