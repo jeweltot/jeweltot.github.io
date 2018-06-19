@@ -40,6 +40,21 @@ layout: default
   </article>
 </div>
 
+<div>
+  <a href="http://www.naver.com" onclick="handleOutboundLinkClicks(event);return false;">sss</a>
+</div>
+
+<script>
+    function handleOutboundLinkClicks(event) {
+        console.log('handleOutboundLinkClicks');
+        ga('send', 'event', {
+            eventCategory: 'Outbound Link',
+            eventAction: 'click',
+            eventLabel: event.target.href
+        });
+    }
+</script>
+
 {% if site.owner.disqus-shortname and page.comments == true %}
 <div id="disqus_thread"></div>
 {% include disqus.html %}
